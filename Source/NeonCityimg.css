@@ -80,8 +80,10 @@ body{
 }
 
 .div1{
+	width: 90%;
 	width: 900px;
 	height: 80px;
+	position: relative;
 }
 
 .div1 p{
@@ -100,4 +102,11 @@ body{
 
 .div1 a:hover{
 	background-color: black;
+}
+
+.imgyh{
+	float: right;
+	margin-right: -590px;
+	margin-top: 8px;
+	width: 5%;
 }
