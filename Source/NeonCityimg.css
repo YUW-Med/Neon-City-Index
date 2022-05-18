@@ -1,0 +1,103 @@
+html{
+	height: 100%;
+	
+}
+body{
+	height: 100%;
+	margin: 0px;
+	background-color: #CCCCCC;
+}
+
+*{
+	margin: 0;
+}
+
+.title{
+	margin: auto;
+	text-align: center;
+	width: 1135px;
+	height: 1200px;
+	background-color: #FFFFFF;
+}
+
+.png{
+	margin: auto;
+	float: left;
+	width: 350px;
+	height: 240px;
+	margin-top: 25px;
+	margin-left: 1.5%;
+	background-color:whitesmoke;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.png:hover{
+	animation: move .2s linear forwards;
+}
+
+@keyframes move {
+            0% {
+                transform: scale(1);
+            }
+ 
+            100% {
+                transform: scale(1.04);
+            }
+}
+
+.img img{
+	width: 300px;
+	margin-top: 20px;
+}
+
+.img p{
+	text-align: center;
+	margin-left: 1.5em;
+	margin-right: 1em;
+	margin-top: 5px;
+}
+
+.pic img{
+	
+}
+
+.top{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(49,49,49);
+}
+
+.mu{
+	width: 300px;
+	float: left;
+	margin-top: 5px;
+	background-color: rgb(49,49,49);
+}
+
+.head1{
+	margin: auto;
+	height: 60px;
+}
+
+.div1{
+	width: 900px;
+	height: 80px;
+}
+
+.div1 p{
+	color: white;
+	font-size: 20px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 17px;
+}
+
+.div1 a:link,
+.div1 a:visited {
+	color: white;
+	text-decoration: blink;
+}
+
+.div1 a:hover{
+	background-color: black;
+}
