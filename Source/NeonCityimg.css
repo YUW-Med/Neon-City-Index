@@ -20,6 +20,7 @@ body{
 	background-color: #FFFFFF;
 }
 
+
 .png{
 	margin: auto;
 	float: left;
@@ -54,7 +55,7 @@ body{
 	text-align: center;
 	margin-left: 1.5em;
 	margin-right: 1em;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .pic img{
